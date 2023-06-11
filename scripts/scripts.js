@@ -2,9 +2,18 @@
 @zadvajr and @Dannyross1 are responsible for this part*/
 
 // display() sets buttons value to display
-
-
 function display(value) {
     document.getElementById("screen").value += value;;
     console.log(buttonValues.value);
+}
+
+// clearScreen() this is a clear screen function
+function clearScreen() {
+    document.getElementById('screen').value = "";
+}
+
+//percent() this is a percentage funtion
+function percent() {
+   let amount = document.getElementById('screen').value;
+   //still working on this section
 }
