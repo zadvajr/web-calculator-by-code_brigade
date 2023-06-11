@@ -17,3 +17,11 @@ function percent() {
    let amount = document.getElementById('screen').value;
    //still working on this section
 }
+
+//compute() function
+function compute() {
+    let expression = document.getElementById('screen').value;
+    let result = eval(expression);
+    document.getElementById('screen').value = result;
+
+}
