@@ -1,3 +1,10 @@
 #This is the styles for handling the interface of the web-calculator.
 #@BigNameZ is responsible for this section styles.css
 
+body {
+    background-color: cyan;
+}
+
+button {
+    background-color: aliceblue;
+}
