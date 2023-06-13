@@ -1,14 +1,30 @@
 /*This is the styles for handling the interface of the web-calculator.
 #@BigNameZ is responsible for this section styles.css
 */
-body {
-    background-color: cyan;
-}
+form {
+    background-color: rgb(60, 127, 127);
+    height: 400px;
+    width: 200px;
+    border-radius: 6%;
+    padding: 4%;
+    padding-top: 6%
 
-button {
-    background-color: aliceblue;
+}
+input[type="button"]{
+margin: 2%;
+height: 40px;
+width: 35px;
+font-size: 19px;
+margin-top: 20px;
+color: rgb(20, 2, 2);
+background-color: rgb(186, 158, 158);
+border-radius: 4px;
+border-color: rgb(193, 185, 92);
+}
+#screen{
+    height: 60px;
+    width: 190px;
+    border-radius: 9px;
+    border-color:rgb(193, 185, 92);
     font-size: 20px;
-    width: 15px;
-    height: 15px;;
 }
-
