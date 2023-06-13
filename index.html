@@ -19,37 +19,43 @@
                 </div>
 
                 <div>
-                    <input type="button" value="9" onclick="display('9')">
-                    <input type="button" value="%" onclick="display('*0.01*')">
-                    <input type="button" value="AC" onclick="clearScreen()">
-                    <input class="operator" type="button" value="*" onclick="display('*')">
-                    <input type="button" value="/" onclick="display('/')">
+                    <!-- <input type="button" value="9" onclick="display('9')"> -->
+                    <input type="button" value="AC" onclick="display()">
+                    <input type="button" value="+/-" onclick="clearScreen('+/-')">
+                    <input type="button" value="%" onclick="clearScreen('*0.01*')">
+                    <input type="button" value="÷" onclick="display('÷')">
                 </div>
 
                 <div>
+                    <input type="button" value="7" onclick="display('7')">
+                    <input type="button" value="8" onclick="display('8')">
+                    <input type="button" value="9" onclick="display('9')"> 
+                    <input class="operator" type="button" value="x" onclick="display('x')">
+                </div>
+
+                <div>
+                    <input type="button" value="4" onclick="display('4')">
                     <input type="button" value="5" onclick="display('5')">
                     <input type="button" value="6" onclick="display('6')">
-                    <input type="button" value="7" onclick="display('7')"> 
-                    <input type="button" value="8" onclick="display('8')">
                     <input class="operator" type="button" value="-" onclick="display('-')">
+                    <!-- <input class="operator" type="button" value="+" onclick="display('+')"> -->
                 </div>
 
                 <div>
                     <input type="button" value="1" onclick="display('1')">
                     <input type="button" value="2" onclick="display('2')">
-                    <input type="button" value="3" onclick="display('3')">
-                    <input type="button" value="4" onclick="display('4')">
+                    <input type="button" value="3" onclick="display('3')"> 
                     <input class="operator" type="button" value="+" onclick="display('+')">
                 </div>
 
                 <div>
-                    <input type="button" value="000" onclick="display('000')">
+                    <!-- <input type="button" value="000" onclick="display('000')"> -->
                     <input type="button" value="00" onclick="display('00')">
                     <input type="button" value="0" onclick="display('0')">
                     <input type="button" value="." onclick="display('.')">
-                    <input type="button" value="-" onclick="display('-')">
-                    <br>
-                    <input class="equals operator" type="button" value="=" onclick="compute()">
+                    <input type="button" value="=" onclick="display('=')">
+                    <!-- <br>
+                    <input class="equals operator" type="button" value="=" onclick="compute()"> -->
                 </div>
             </form>
         </div>
