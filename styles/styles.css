@@ -18,7 +18,7 @@ font-size: 20px;
 margin-top: 15px;
 color: rgb(8, 1, 1);
 background-color: rgb(186, 158, 158);
-border-color:rgb(96, 48, 35);
+border-color:rgb(168, 141, 133);
 }
 #screen{
     height: 50px;
@@ -34,6 +34,8 @@ border-color:rgb(96, 48, 35);
     margin-top: -1000%;
     height: 115px;
     padding-bottom: 70px;
-    margin-left: auto;
-    margin-right: auto;
+    border-color:rgb(188, 162, 155);
+    color:rgb(12, 28, 28);
+    background-color: rgb(87, 148, 129);
+
 }
