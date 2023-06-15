@@ -8,6 +8,7 @@ form {
     height: 400px;
     width: 220px;
     padding: 3%;
+    border-radius: 6px;
 
 }
 input[type="button"]{
@@ -19,6 +20,7 @@ margin-top: 15px;
 color: rgb(8, 1, 1);
 background-color: rgb(186, 158, 158);
 border-color:rgb(168, 141, 133);
+border-radius: 6px;
 }
 #screen{
     height: 50px;
@@ -27,6 +29,7 @@ border-color:rgb(168, 141, 133);
     font-size: 20px;
     background-color: rgb(247, 242, 242);
     color: black;
+    border-radius: 6px;
 }
 
 #eual-btn {
@@ -34,8 +37,11 @@ border-color:rgb(168, 141, 133);
     margin-top: -1000%;
     height: 115px;
     padding-bottom: 70px;
+    padding-top: px;
     border-color:rgb(188, 162, 155);
     color:rgb(12, 28, 28);
     background-color: rgb(87, 148, 129);
+    
+
 
 }
