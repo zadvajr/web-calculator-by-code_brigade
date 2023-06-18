@@ -1,0 +1,9 @@
+<script>
+
+ if (value === '%') {
+    screen.value = parseFloat(screen.value) / 100;
+  } else {
+    screen.value += value;
+  }
+}
+</script>
