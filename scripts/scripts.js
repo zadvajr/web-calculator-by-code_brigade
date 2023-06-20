@@ -1,30 +1,34 @@
 /*This is the code logic, computational and interactivity  for the web-calculator. 
 @zadvajr and @Dannyross1 are responsible for this part*/
 
-let input = document.getElementById('screen');
-let keys = document.querySelectorAll('button');
-let screenValue = "";
-
-for(item of keys) {
+let screen = document.getElementById('screen');
+buttons = document.querySelectorAll('button');
+let screenValue = '';
+for (item of buttons) {
     item.addEventListener('click', (e) => {
-       buttonText = e.target.innerHTML;
-
-        if(buttonText == 'x') {
+        buttonText = e.target.innerText;
+        if (buttonText == 'x') {
             buttonText = '*';
             screenValue += buttonText;
-            input.value = screenValue;
+            screen.value = screenValue;
         }
-        else if(buttonText == 'C') {
-            screenValue = '';
-            input.value = screenValue;
+        else if(buttonText == '÷') {
+            buttonText = '/';
+            screenValue += buttonText;
+            screen.value = screenValue;
         }
-        else if(buttonText == '=') {
-            input.value = eval(screenValue);
+        else if (buttonText == 'C') {
+            screenValue = "";
+            screen.value = screenValue;
+        }
+        else if (buttonText == '=') {
+            screen.value = eval(screenValue);
         }
         else {
             screenValue += buttonText;
-            input.value = screenValue;
+            screen.value = screenValue;
         }
 
     })
 }
+
