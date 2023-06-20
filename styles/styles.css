@@ -1,17 +1,20 @@
 /*This is the styles for handling the interface of the web-calculator.
 #@BigNameZ is responsible for this section styles.css
 */
-
-form {
+body {
+    text-align: center;
+}
+.container {
     background-size: 50px 50px;
     background-color: rgb(60, 127, 127);
     height: 400px;
     width: 220px;
     padding: 3%;
     border-radius: 6px;
+    margin: auto;
 
 }
-input[type="button"]{
+button {
 margin: 1%;
 height: 49px;
 width: 47px;
@@ -30,18 +33,13 @@ border-radius: 6px;
     background-color: rgb(247, 242, 242);
     color: black;
     border-radius: 6px;
+    text-align: right;
 }
 
 #eual-btn {
-    margin-bottom: -1000%;
-    margin-top: -1000%;
-    height: 115px;
-    padding-bottom: 70px;
-    padding-top: px;
+    height: 120px;
     border-color:rgb(188, 162, 155);
     color:rgb(12, 28, 28);
     background-color: rgb(87, 148, 129);
-    
-
-
+    text-align: center;
 }
